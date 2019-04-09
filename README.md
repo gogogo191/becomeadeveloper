@@ -17,11 +17,16 @@
 * git commit -m muragora
 * git push origin master
 * 에드하구 커밋하고 푸시하고...
+* git clone 클론복사
 
 ## 개발자가 되기 위해서
 * 영어랑 친해지기
 * 단축키랑 친해지기
 * 마크다운으로 문서 정리하기
+
+## 유용한 사이트
+* codepen.io 코드 써볼 수
+* caniuse
 
 # 크롬 개발자 모드
 * elements : 태그 수정 들
