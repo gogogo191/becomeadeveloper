@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T14:03:16.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="dd2PBOUDP47OuUQHuv13" version="16.3.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-02T14:21:47.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="DdsPRxGoT975daw6wcA0" version="16.3.0" type="github" pages="5">
   <diagram id="b5kFxftwJZ7XBYd6tsB7" name="TTS 앱 클래스 구성">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -256,6 +256,27 @@
             <mxPoint x="185" y="580" as="sourcePoint" />
             <mxPoint x="440" y="700" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OMad2qYOEKMumG3nOh0N-36" value="조건" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;fontSize=12;" vertex="1" parent="7PKwOTM0BncBq8dpB7SQ-1">
+          <mxGeometry x="310" y="240" width="500" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="OMad2qYOEKMumG3nOh0N-37" value="PRIORITY_WAIT" style="swimlane;startSize=20;horizontal=0;fontSize=12;" vertex="1" parent="OMad2qYOEKMumG3nOh0N-36">
+          <mxGeometry y="20" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OMad2qYOEKMumG3nOh0N-41" value="playlist가 0개지만 isMCMute = true 이고 requestLevel이 4보다 작음&lt;br&gt;playlist가 0개지만 isMCMute = true이고 requestLevel = 4이고,&amp;nbsp;&lt;br&gt;패키지이름은 MC가 아니거나 alertPriority가 -1이 아닌 경우&lt;br&gt;&lt;br&gt;요청level(checkPriority의 level) &amp;lt; playingLevel&lt;br&gt;요청level = palyingLevel 이고 requestLevel이 5 또는 2인 경우&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="OMad2qYOEKMumG3nOh0N-37">
+          <mxGeometry x="30" y="10" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OMad2qYOEKMumG3nOh0N-38" value="STOP_AND_PLAY" style="swimlane;startSize=20;horizontal=0;fontSize=12;" vertex="1" parent="OMad2qYOEKMumG3nOh0N-36">
+          <mxGeometry y="140" width="500" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OMad2qYOEKMumG3nOh0N-42" value="요청level = playingLevel 이고 requestLevel = 4 &amp;amp; MC패키지 &amp;amp; alertPriority = -1인 경우&lt;br&gt;요청level &amp;gt; playingLevel" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="OMad2qYOEKMumG3nOh0N-38">
+          <mxGeometry x="30" y="40" width="470" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OMad2qYOEKMumG3nOh0N-39" value="PRIORITY_PLAY_NOW" style="swimlane;startSize=20;horizontal=0;fontSize=12;" vertex="1" parent="OMad2qYOEKMumG3nOh0N-36">
+          <mxGeometry y="270" width="500" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="OMad2qYOEKMumG3nOh0N-43" value="playlist가 0개인 경우중 WAIT가 아닌 경우" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="OMad2qYOEKMumG3nOh0N-39">
+          <mxGeometry x="30" y="65" width="240" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
