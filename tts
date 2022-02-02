@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T23:36:11.559Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="mgveVkpTbrUroHWekosB" version="16.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-02T23:44:52.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Xbz43m1JGJc06PyPY02i" version="16.5.2" type="github" pages="6">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -539,7 +539,7 @@
           <mxGeometry x="440" y="190" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HqJdgd20wBfDjv2JR6m6-0" value="TTS도중 리모콘으로 &#xa;볼륨이 조절된 경우&#xa;sAdjustVolumeSave != curVolume" style="swimlane;startSize=50;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
-          <mxGeometry x="170" y="510" width="200" height="80" as="geometry" />
+          <mxGeometry x="310" y="505" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yJNGQk3iJe248EmOdVUc-1" value="선재발화 후 유지 안하는 경우" style="swimlane;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
           <mxGeometry x="430" y="400" width="200" height="70" as="geometry" />
@@ -554,7 +554,7 @@
           <mxGeometry x="10" y="56" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="yJNGQk3iJe248EmOdVUc-9" value="TTS가 볼륨조절을 한 경우" style="swimlane;startSize=30;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
-          <mxGeometry x="597" y="510" width="223" height="70" as="geometry" />
+          <mxGeometry x="420" y="620" width="223" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VKvi6b1xVtAWxVfNoAVr-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=-0.062;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qMcFfV7YnO2XI2bRGVSd-1" source="yJNGQk3iJe248EmOdVUc-7" target="yJNGQk3iJe248EmOdVUc-3">
           <mxGeometry relative="1" as="geometry" />
@@ -566,19 +566,19 @@
           <mxGeometry x="260" y="290" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yJNGQk3iJe248EmOdVUc-15" value="볼륨 재조정 없음" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
-          <mxGeometry x="175" y="566" width="110" height="20" as="geometry" />
+          <mxGeometry x="315" y="561" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VKvi6b1xVtAWxVfNoAVr-21" value="볼륨 재조정 없음" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
           <mxGeometry x="265" y="334" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="VKvi6b1xVtAWxVfNoAVr-22" value="TTS도중 리모콘으로 &#xa;볼륨이 조절 안된 경우" style="swimlane;startSize=50;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
-          <mxGeometry x="387" y="510" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VKvi6b1xVtAWxVfNoAVr-23" value="볼륨 재조정 없음" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
-          <mxGeometry x="392" y="566" width="110" height="20" as="geometry" />
+          <mxGeometry x="527" y="505" width="223" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VKvi6b1xVtAWxVfNoAVr-24" value="setMasterVolume(sMasterVolumeSave)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
-          <mxGeometry x="603" y="547" width="230" height="20" as="geometry" />
+          <mxGeometry x="426" y="656" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VKvi6b1xVtAWxVfNoAVr-28" value="setMasterVolume(sMasterVolumeSave)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
+          <mxGeometry x="533" y="559" width="230" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
