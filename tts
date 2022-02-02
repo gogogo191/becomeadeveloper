@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T16:05:46.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="YJBPmktuVCHIdm4lh_uX" version="16.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-02T17:00:59.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="yKtqkLXMwU_UEpdUHzYM" version="16.5.2" type="github" pages="5">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -349,22 +349,162 @@
         <mxCell id="uloylxqUSazxHDdX3pos-0" value="TTSGenerateWave" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
           <mxGeometry x="390" y="472.5" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="uloylxqUSazxHDdX3pos-1" value="+generateWave(req)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-0">
+        <mxCell id="uloylxqUSazxHDdX3pos-1" value="+generateWave(req)&#xa;(외국어, 빈문자열 확인 후)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-0">
           <mxGeometry y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GsLM2Cu3NL8Z-jSko0FP-1" source="uloylxqUSazxHDdX3pos-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-2" value="TTSGenerateWave" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
+          <mxGeometry x="390" y="590" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-3" value="-generateCSWave(req)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-2">
+          <mxGeometry y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GsLM2Cu3NL8Z-jSko0FP-1" source="uloylxqUSazxHDdX3pos-5" target="uloylxqUSazxHDdX3pos-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-5" value="TTSAsyncTask" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
+          <mxGeometry x="90" y="590" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-6" value="-execute(req)&#xa;doInBackground&#xa;onPostExcute&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-5">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GsLM2Cu3NL8Z-jSko0FP-1" source="uloylxqUSazxHDdX3pos-1" target="uloylxqUSazxHDdX3pos-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-8" value="TTSGenerateWave" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
+          <mxGeometry x="90" y="720" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-9" value="+onTTSReceive(req) &#xa;{ sendTTSDataGenCompleted(true, reqId); }&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-8">
+          <mxGeometry y="30" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-11" value="TTSPlayer" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
+          <mxGeometry x="240" y="840" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-12" value="+start(String path, req)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-11">
+          <mxGeometry y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="GsLM2Cu3NL8Z-jSko0FP-1" source="uloylxqUSazxHDdX3pos-9" target="uloylxqUSazxHDdX3pos-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-14" value="Utils" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
+          <mxGeometry x="490" y="840" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-15" value="+sendTTSOutputState&#xa;(이후 볼륨 조절, LED 제어)&#xa;&#xa;+sendTTSPlayCompleted&#xa;(TTSService.sendDataMessage)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-14">
+          <mxGeometry y="30" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="GsLM2Cu3NL8Z-jSko0FP-1" source="uloylxqUSazxHDdX3pos-12" target="uloylxqUSazxHDdX3pos-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Copy of Copy of Copy of Page-1" id="CpxAsp0L1YbYdxdkjsJ1">
+  <diagram name="adjustMasterVolume" id="CpxAsp0L1YbYdxdkjsJ1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="U099Pus5l6s0edM_oMwM-0" />
         <mxCell id="U099Pus5l6s0edM_oMwM-1" parent="U099Pus5l6s0edM_oMwM-0" />
-        <mxCell id="U099Pus5l6s0edM_oMwM-2" value="&lt;h1&gt;TTS 재생 플로우(generateWave)&lt;/h1&gt;&lt;p&gt;ㅇㅇ&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
-          <mxGeometry x="60" y="30" width="400" height="120" as="geometry" />
+        <mxCell id="U099Pus5l6s0edM_oMwM-2" value="&lt;h1&gt;&lt;span&gt;adjustMasterVolume(final boolean start, TTSRequest req)&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="U099Pus5l6s0edM_oMwM-1" vertex="1">
+          <mxGeometry x="60" y="30" width="710" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="U099Pus5l6s0edM_oMwM-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
-          <mxGeometry x="70" y="150" width="220" height="140" as="geometry" />
+        <mxCell id="ldobLs4v9fjKiNMypyhV-0" value="GG2, GG3 단말 : 최소 7, 최대 23&lt;br&gt;나머지 단말 : 최소 4, 최대 23&lt;br&gt;&lt;br&gt;+ 선재발화시 : 선재발화 볼륨 -&amp;gt; 이후 선재발화 볼륨유지 여부&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="80" y="80" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-1" value="변수" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="90" y="200" width="300" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-2" value="sMasterVolumeSave" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-1">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-3" value="sAdjustVolumeSave" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-1">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-4" value="sUserSettingVolumeLevel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-1">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-5" value="final int curVolume(getMasterVolume())" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-1">
+          <mxGeometry y="104" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-16" value="preemptiveVol" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-1">
+          <mxGeometry y="130" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-23" value="boolean ttsFlag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-1">
+          <mxGeometry y="156" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-6" value="역할" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="390" y="200" width="300" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-7" value="볼륨 조절 전 초기 볼륨" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-6">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-8" value="조정된 볼륨" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-6">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-9" value="볼륨설정에서 사용자가 정한 볼륨" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-6">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-10" value="실시간 볼륨" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-6">
+          <mxGeometry y="104" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-24" value="선재발화 볼륨" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-6">
+          <mxGeometry y="130" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-25" value="선재발화 후 볼륨 유지 여부" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-6">
+          <mxGeometry y="156" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U099Pus5l6s0edM_oMwM-1" source="ldobLs4v9fjKiNMypyhV-26" target="ldobLs4v9fjKiNMypyhV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U099Pus5l6s0edM_oMwM-1" source="ldobLs4v9fjKiNMypyhV-26" target="ldobLs4v9fjKiNMypyhV-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-26" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="330" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-28" value="볼륨 설정 안한 경우" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="320" y="660" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-30" value="선재 발화의 경우" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="80" y="540" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-31" value="preemtivevol != -1&lt;br&gt;setMasterVolume(preemptivevol)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-30">
+          <mxGeometry x="10" y="30" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-32" value="볼륨 설정을 한 경우" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="570" y="660" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-33" value="sUserSettingVolumeLevel == &lt;br&gt;4, 7, 9, 17, 23, 30" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-32">
+          <mxGeometry x="10" y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="U099Pus5l6s0edM_oMwM-1" source="ldobLs4v9fjKiNMypyhV-34" target="ldobLs4v9fjKiNMypyhV-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-34" value="선재 발화가 아닌 경우" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="480" y="540" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-35" value="sUserSettingVolumeLevel == 0" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-34">
+          <mxGeometry x="10" y="30" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-29" value="sUserSettingVolumeLevel == 0&lt;br&gt;&lt;br&gt;현재 볼륨이 23보다 큰 경우 23&lt;br&gt;0 &amp;lt; 현재 볼륨 &amp;lt; 4, 7 인 경우 4,7&lt;br&gt;그외 볼륨인 경우 조정 안함" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="330" y="684" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.445;entryY=-0.071;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U099Pus5l6s0edM_oMwM-1" target="ldobLs4v9fjKiNMypyhV-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-43" value="STOP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="330" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-44" value="curVolume = getMasterVolume() // 현재볼륨" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="460" y="440" width="250" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ldobLs4v9fjKiNMypyhV-45" value="curVolume = getMasterVolume() // TTS 종료시점 볼륨&lt;br&gt;&lt;br&gt;1. 최소/최대 볼륨 조절 기능으로 변경된 볼륨&lt;br&gt;2. 선재발화로 변경된 볼륨&lt;br&gt;3. TTS 재생 중 리모콘으로 움직였을 때 볼륨" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="470" y="830" width="300" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
