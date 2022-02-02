@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T10:35:10.229Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="1raZZHa_sZ23ztBYj-aT" version="16.3.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-02T10:45:28.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0fZP40w-ONjlha1XNEBw" version="16.3.0" type="github" pages="5">
   <diagram id="b5kFxftwJZ7XBYd6tsB7" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,25 +8,19 @@
           <mxGeometry x="60" y="30" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-2" value="com.diotek.diotts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="180" width="210" height="110" as="geometry" />
+          <mxGeometry x="100" y="160" width="210" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-3" value="PowerTTS_Java : 셀바스 TTS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-2">
           <mxGeometry y="30" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-6" value="com.diotek.diotts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="180" width="210" height="110" as="geometry" />
-        </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-10" value="com.kt.gigagenie.tts.app" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="180" width="210" height="90" as="geometry" />
+          <mxGeometry x="380" y="160" width="320" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-11" value="TTSApplication :" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-10">
-          <mxGeometry y="30" width="210" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-12" value="TTS앱 initailizer, TTSService 실행" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-10">
-          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-11" value="TTSApplication : TTS앱 initailizer, TTSService 실행" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-10">
+          <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-14" value="com.diotek.diotts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="300" width="180" height="120" as="geometry" />
+          <mxGeometry x="520" y="260" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-15" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-14">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -37,17 +31,26 @@
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-17" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-14">
           <mxGeometry y="90" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-18" value="com.diotek.diotts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="320" width="290" height="120" as="geometry" />
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-18" value="com.kt.gigagenie.tts.engine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="300" width="370" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-19" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
-          <mxGeometry y="30" width="290" height="30" as="geometry" />
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-20" value="ITTSSCSRecciver : TTSAsyncTASK 실행 후, callback 인터페이스" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+          <mxGeometry y="30" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-20" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
-          <mxGeometry y="60" width="290" height="30" as="geometry" />
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-21" value="LocalEffect : 통화 벨소리, 런처 sound 관련 내장 음성 관리" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+          <mxGeometry y="60" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-21" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
-          <mxGeometry y="90" width="290" height="30" as="geometry" />
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-22" value="RecordingTTS : 내장 음성(서버로 보내지 않고 처리), mp3파일 구성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+          <mxGeometry y="90" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-23" value="TTSAsyncTask : 스피커 아이디에 맞는 서버로 TTS 요청" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+          <mxGeometry y="120" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-24" value="TTSGenerateWave : TTS 생성시 서버로, 혹은 내부 처리 결정" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+          <mxGeometry y="150" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-25" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+          <mxGeometry y="180" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
