@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T16:03:24.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="zi34Kd84id__xeRtfjGc" version="16.5.2" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2022-02-02T16:05:46.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="YJBPmktuVCHIdm4lh_uX" version="16.5.2" type="github" pages="5">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -305,7 +305,12 @@
         </mxCell>
         <mxCell id="FY9wVoxixo5hdKLUxn_u-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="GsLM2Cu3NL8Z-jSko0FP-1" source="5IUcrXgarXL6eDMvS4oI-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="470" as="targetPoint" />
+            <mxPoint x="490" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="365" />
+              <mxPoint x="490" y="365" />
+              <mxPoint x="490" y="470" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="5IUcrXgarXL6eDMvS4oI-1" value="PRIORITY_PLAY_NOW" style="swimlane;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
@@ -340,6 +345,12 @@
         </mxCell>
         <mxCell id="5IUcrXgarXL6eDMvS4oI-12" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
           <mxGeometry x="180" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-0" value="TTSGenerateWave" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="GsLM2Cu3NL8Z-jSko0FP-1">
+          <mxGeometry x="390" y="472.5" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uloylxqUSazxHDdX3pos-1" value="+generateWave(req)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="uloylxqUSazxHDdX3pos-0">
+          <mxGeometry y="30" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
