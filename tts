@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T17:31:51.982Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="z6jV4-BsuvPe0MU70Ysf" version="16.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-02T17:47:08.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="bsc_iJxUj0eijaFNi4FD" version="16.5.2" type="github" pages="6">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -562,6 +562,9 @@
             <mxPoint x="440" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qMcFfV7YnO2XI2bRGVSd-1" source="qMcFfV7YnO2XI2bRGVSd-31" target="HqJdgd20wBfDjv2JR6m6-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qMcFfV7YnO2XI2bRGVSd-31" value="STOP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
           <mxGeometry x="330" y="580" width="120" height="60" as="geometry" />
         </mxCell>
@@ -570,6 +573,30 @@
         </mxCell>
         <mxCell id="qMcFfV7YnO2XI2bRGVSd-33" value="curVolume = getMasterVolume() // TTS 종료시점 볼륨&lt;br&gt;&lt;br&gt;1. 최소/최대 볼륨 조절 기능으로 변경된 볼륨&lt;br&gt;2. 선재발화로 변경된 볼륨&lt;br&gt;3. TTS 재생 중 리모콘으로 움직였을 때 볼륨" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
           <mxGeometry x="470" y="580" width="300" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qMcFfV7YnO2XI2bRGVSd-1" source="HqJdgd20wBfDjv2JR6m6-0" target="yJNGQk3iJe248EmOdVUc-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.59;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="qMcFfV7YnO2XI2bRGVSd-1" source="HqJdgd20wBfDjv2JR6m6-0" target="yJNGQk3iJe248EmOdVUc-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qMcFfV7YnO2XI2bRGVSd-1" source="HqJdgd20wBfDjv2JR6m6-0" target="yJNGQk3iJe248EmOdVUc-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HqJdgd20wBfDjv2JR6m6-0" value="TTS도중 리모콘으로 &#xa;볼륨이 조절된 경우" style="swimlane;startSize=40;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
+          <mxGeometry x="290" y="700" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-1" value="선재발화 후 유지 안하는 경우" style="swimlane;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
+          <mxGeometry x="100" y="830" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-3" value="선재발화 후 유지 하는 경우" style="swimlane;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
+          <mxGeometry x="210" y="920" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-9" value="TTS가 볼륨조절을 한 경우" style="swimlane;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
+          <mxGeometry x="430" y="1020" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yJNGQk3iJe248EmOdVUc-7" value="TTS가 볼륨조절을 안한 경우" style="swimlane;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
+          <mxGeometry x="430" y="920" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
