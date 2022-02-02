@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T23:14:02.313Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="8bMjSCzZxBKmYDjpdhsl" version="16.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-02T23:15:57.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="afcMMbsoDGV-8Xw13lUB" version="16.5.2" type="github" pages="6">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -469,13 +469,13 @@
           <mxGeometry x="330" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ldobLs4v9fjKiNMypyhV-28" value="볼륨 설정 안한 경우" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
-          <mxGeometry x="80" y="570" width="200" height="140" as="geometry" />
+          <mxGeometry x="80" y="570" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ldobLs4v9fjKiNMypyhV-29" value="sUserSettingVolumeLevel == 0&lt;br&gt;&lt;br&gt;현재 볼륨이 23보다 큰 경우 23&lt;br&gt;0 &amp;lt; 현재 볼륨 &amp;lt; 4, 7 인 경우 4,7&lt;br&gt;그외 볼륨인 경우 조정 안함" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-28">
-          <mxGeometry x="6" y="25" width="180" height="80" as="geometry" />
+        <mxCell id="ldobLs4v9fjKiNMypyhV-29" value="sUserSettingVolumeLevel == 0" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-28">
+          <mxGeometry x="6" y="30" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ldobLs4v9fjKiNMypyhV-30" value="선재 발화의 경우" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
-          <mxGeometry x="275" y="780" width="230" height="80" as="geometry" />
+          <mxGeometry x="275" y="690" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ldobLs4v9fjKiNMypyhV-31" value="preemtivevol != -1&lt;br&gt;setMasterVolume(preemptiveVolume)&lt;br&gt;sAdjustVolume = premptiveVolume" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ldobLs4v9fjKiNMypyhV-30">
           <mxGeometry x="5" y="25" width="220" height="50" as="geometry" />
@@ -487,19 +487,25 @@
           <mxGeometry x="9" y="30" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ldobLs4v9fjKiNMypyhV-43" value="STOP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
-          <mxGeometry x="280" y="910" width="120" height="60" as="geometry" />
+          <mxGeometry x="275" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ldobLs4v9fjKiNMypyhV-44" value="curVolume = getMasterVolume() // 현재볼륨" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
           <mxGeometry x="460" y="490" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ldobLs4v9fjKiNMypyhV-45" value="curVolume = getMasterVolume() // TTS 종료시점 볼륨&lt;br&gt;&lt;br&gt;1. 최소/최대 볼륨 조절 기능으로 변경된 볼륨&lt;br&gt;2. 선재발화로 변경된 볼륨&lt;br&gt;3. TTS 재생 중 리모콘으로 움직였을 때 볼륨" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
-          <mxGeometry x="420" y="910" width="300" height="80" as="geometry" />
+          <mxGeometry x="415" y="1030" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cPYY0MGRjoDIFciD3ekI-1" value="볼륨 설정 했지만 조정 안함" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
-          <mxGeometry x="485" y="690" width="200" height="80" as="geometry" />
+          <mxGeometry x="525" y="810" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="cPYY0MGRjoDIFciD3ekI-3" value="현재 소리가 0, 패키지가 CA,&lt;br&gt;알람의 경우&lt;br&gt;sMasterVolumeSave = -1" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cPYY0MGRjoDIFciD3ekI-1">
           <mxGeometry x="10" y="25" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cPYY0MGRjoDIFciD3ekI-5" value="볼륨 설정 안한 경우" style="swimlane;" vertex="1" parent="U099Pus5l6s0edM_oMwM-1">
+          <mxGeometry x="110" y="810" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cPYY0MGRjoDIFciD3ekI-6" value="현재 볼륨이 23보다 큰 경우 23&lt;br&gt;0 &amp;lt; 현재 볼륨 &amp;lt; 4, 7 인 경우 4,7&lt;br&gt;그외 볼륨인 경우 조정 안함" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="cPYY0MGRjoDIFciD3ekI-5">
+          <mxGeometry x="10" y="30" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
