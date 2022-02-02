@@ -1,38 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T10:45:28.545Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0fZP40w-ONjlha1XNEBw" version="16.3.0" type="github" pages="5">
-  <diagram id="b5kFxftwJZ7XBYd6tsB7" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2022-02-02T11:28:29.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="LKsv_80SFEPeN_rnLwWV" version="16.3.0" type="github" pages="5">
+  <diagram id="b5kFxftwJZ7XBYd6tsB7" name="TTS 앱 클래스 구성">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5LDqJCB6-i08BNLzFjaf-1" value="&lt;h1&gt;TTS 앱 클래스 구성&lt;/h1&gt;&lt;p&gt;ㅇㅇ&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="kHAdP3FmEe85YpDIEOAi-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="100" y="540" width="500" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="5LDqJCB6-i08BNLzFjaf-1" value="&lt;h1&gt;TTS 앱 클래스 구성&lt;/h1&gt;&lt;p&gt;4개 패키지, 18개 클래스&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="30" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-2" value="com.diotek.diotts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="160" width="210" height="110" as="geometry" />
+          <mxGeometry x="100" y="160" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-3" value="PowerTTS_Java : 셀바스 TTS" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-2">
-          <mxGeometry y="30" width="210" height="80" as="geometry" />
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-10" value="com.kt.gigagenie.tts.app" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="380" y="160" width="320" height="60" as="geometry" />
+          <mxGeometry x="120" y="820" width="320" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-11" value="TTSApplication : TTS앱 initailizer, TTSService 실행" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-10">
           <mxGeometry y="30" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-14" value="com.diotek.diotts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="260" width="180" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-15" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-14">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-16" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-14">
-          <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-17" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-14">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-18" value="com.kt.gigagenie.tts.engine" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="300" width="370" height="210" as="geometry" />
+          <mxGeometry x="120" y="560" width="370" height="240" as="geometry" />
         </mxCell>
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-20" value="ITTSSCSRecciver : TTSAsyncTASK 실행 후, callback 인터페이스" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
           <mxGeometry y="30" width="370" height="30" as="geometry" />
@@ -49,22 +40,112 @@
         <mxCell id="9OA-5ZoANCCdQ6GVTEO2-24" value="TTSGenerateWave : TTS 생성시 서버로, 혹은 내부 처리 결정" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
           <mxGeometry y="150" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-25" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-25" value="TTSHtsData : 셀바스 TTS Data 관련" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
           <mxGeometry y="180" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-26" value="TTSPlayer : TTS 재생 플레이어" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-18">
+          <mxGeometry y="210" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-27" value="com.kt.gigagenie.tts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="500" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-28" value="ChannelName : TV채널명 저장 (현재 미사용)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="30" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-29" value="ColorFeelLed : LED 관련(TTS재생/음소거, GG3 Clock led)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="60" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-30" value="Decompress : 셀바스 TTS 오프라인 작동시 unzip수행" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="90" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-31" value="ReqList : TTS play list 관리(큐)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="120" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-32" value="TTSReceiver : 인텐트 수신" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="150" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-33" value="TTSRequest : TTS 요청시 사용하는 구조체" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="180" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-34" value="TTSService : TTS service 핸들러가 cmd에 따라 TTS 재생 시퀀스 실행" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="210" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-36" value="TTSStatistics : TTS 통계 저장용" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="240" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OA-5ZoANCCdQ6GVTEO2-37" value="Utils : 서버ip 설정, 모델명, 변수, 메서드 등 utility들 집합" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="9OA-5ZoANCCdQ6GVTEO2-27">
+          <mxGeometry y="270" width="500" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Page-1" id="R7d3Q8b_fitzAbDaQ_0s">
+  <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3eFXW1TL6-u9qBtbck52-0" />
         <mxCell id="3eFXW1TL6-u9qBtbck52-1" parent="3eFXW1TL6-u9qBtbck52-0" />
-        <mxCell id="3eFXW1TL6-u9qBtbck52-2" value="&lt;h1&gt;TTS 기본 정책 및 개요&lt;/h1&gt;&lt;p&gt;ㅇㅇ&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
-          <mxGeometry x="60" y="30" width="270" height="120" as="geometry" />
+        <mxCell id="3eFXW1TL6-u9qBtbck52-2" value="&lt;h1&gt;TTS 기본 정책 및 개요&lt;/h1&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;Rule 1. TTS &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;송출을 원하는 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;App&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;이 직접 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;TTS App&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;에 요청함 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;기존은 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;MC&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;가 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;gateway &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;역할을 함&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;Rule 2. TTS&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;를 요청하는 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;App&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;이 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;TTS &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;메시지를 관리함&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 11px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;Rule 3. GUI&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;가 있는 음성명령어는 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;TTS &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;재생하지 않음 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;(ex. &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;메뉴이동 &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;- &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;위로&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;아래로&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;왼쪽으로&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;오른쪽으로&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;맑은 고딕&amp;#34;&quot;&gt;)&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="60" y="30" width="540" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3eFXW1TL6-u9qBtbck52-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
-          <mxGeometry x="70" y="150" width="220" height="140" as="geometry" />
+        <mxCell id="3eFXW1TL6-u9qBtbck52-3" value="MC, 런처, 기타 앱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="70" y="170" width="150" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="LxyZ8DD82HVuN8wfk9JQ-0" value="TTS 앱" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="430" y="170" width="150" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="LxyZ8DD82HVuN8wfk9JQ-4" value="tts.start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="290" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LxyZ8DD82HVuN8wfk9JQ-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="220" as="sourcePoint" />
+            <mxPoint x="410" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-0" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.5" y="340" as="sourcePoint" />
+            <mxPoint x="233.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-1" value="tts.done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="293.5" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-2" value="tts.output.start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="290" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-3" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="410" as="sourcePoint" />
+            <mxPoint x="410" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-4" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="260" as="sourcePoint" />
+            <mxPoint x="230" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="sourcePoint" />
+            <mxPoint x="230" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-6" value="tts.output.done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="290" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-7" value="tts.stop" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="290" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=11;" edge="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="413.5" y="450" as="sourcePoint" />
+            <mxPoint x="233.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OVd45X-tHAhOjbCtSqWa-9" value="tts.done" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" vertex="1" parent="3eFXW1TL6-u9qBtbck52-1">
+          <mxGeometry x="293.5" y="420" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
