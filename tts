@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T23:53:57.550Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="7XYFESS1_Fn8IaulJ4fj" version="16.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-03T00:11:27.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="8Il9vhHkxRZmXzWa5sbt" version="16.5.2" type="github" pages="7">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -579,6 +579,62 @@
         </mxCell>
         <mxCell id="VKvi6b1xVtAWxVfNoAVr-28" value="setMasterVolume(sMasterVolumeSave)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qMcFfV7YnO2XI2bRGVSd-1">
           <mxGeometry x="533" y="559" width="230" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="TTSRequest" id="fAk4_oycmOveGEYbYgOV">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-0" />
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-1" parent="Ciq0sC-E2hQf9pbfKQTc-0" />
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-2" value="&lt;h1&gt;&lt;span&gt;TTSRequest&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-1">
+          <mxGeometry x="60" y="30" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-3" value="ReqList.putPlayList를 통해 값 할당&lt;br&gt;TTSService.setTTSText를 통해 값 할당&lt;br&gt;ReqList.newReqId를 통해 값 할당" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-1">
+          <mxGeometry x="80" y="80" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-4" value="변수" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-1">
+          <mxGeometry x="90" y="200" width="300" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-5" value="sMasterVolumeSave" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-4">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-6" value="sAdjustVolumeSave" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-4">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-7" value="sUserSettingVolumeLevel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-4">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-8" value="final int curVolume(getMasterVolume())" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-4">
+          <mxGeometry y="104" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-9" value="preemptiveVol" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-4">
+          <mxGeometry y="130" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-10" value="boolean ttsFlag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-4">
+          <mxGeometry y="156" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-11" value="역할" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-1">
+          <mxGeometry x="390" y="200" width="300" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-12" value="1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-11">
+          <mxGeometry y="26" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-13" value="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-11">
+          <mxGeometry y="52" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-14" value="3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-11">
+          <mxGeometry y="78" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-15" value="4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-11">
+          <mxGeometry y="104" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-16" value="5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-11">
+          <mxGeometry y="130" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ciq0sC-E2hQf9pbfKQTc-17" value="6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Ciq0sC-E2hQf9pbfKQTc-11">
+          <mxGeometry y="156" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
