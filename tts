@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T10:46:03.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="D87HPPaONnPlIYtsQ055" version="16.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-02-09T05:28:18.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="tOv9-rMJoWV1oos8qJjq" version="16.4.11" type="github" pages="9">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
-    <mxGraphModel dx="1185" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3eFXW1TL6-u9qBtbck52-0" />
         <mxCell id="3eFXW1TL6-u9qBtbck52-1" parent="3eFXW1TL6-u9qBtbck52-0" />
@@ -464,135 +464,135 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ReqList" id="UThomyO1jact34VYVtA8">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="3cJQyI4kQeBppujhWccm-0" />
         <mxCell id="3cJQyI4kQeBppujhWccm-1" parent="3cJQyI4kQeBppujhWccm-0" />
-        <mxCell id="3cJQyI4kQeBppujhWccm-2" value="&lt;h1&gt;&lt;span&gt;ReqList&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="3cJQyI4kQeBppujhWccm-1">
+        <mxCell id="3cJQyI4kQeBppujhWccm-2" value="&lt;h1&gt;&lt;span&gt;ReqList&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="3cJQyI4kQeBppujhWccm-1" vertex="1">
           <mxGeometry x="60" y="30" width="710" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-3" value="&amp;lt;ArrayList&amp;gt;mPlayList와 mWaitList" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3cJQyI4kQeBppujhWccm-1">
+        <mxCell id="3cJQyI4kQeBppujhWccm-3" value="&amp;lt;ArrayList&amp;gt;mPlayList와 mWaitList" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3cJQyI4kQeBppujhWccm-1" vertex="1">
           <mxGeometry x="80" y="80" width="390" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-4" value="메소드명" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="3cJQyI4kQeBppujhWccm-1">
+        <mxCell id="3cJQyI4kQeBppujhWccm-4" value="메소드명" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="3cJQyI4kQeBppujhWccm-1" vertex="1">
           <mxGeometry x="90" y="166" width="360" height="494" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-5" value="TTSRequest putPlayList (Bundle data, int cmd, .....)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-5" value="TTSRequest putPlayList (Bundle data, int cmd, .....)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-6" value="TTSRequest putWaitList (위와 같음)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-6" value="TTSRequest putWaitList (위와 같음)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="52" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-8" value="TTSRequest getList (int appRequestId, String packageName)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-8" value="TTSRequest getList (int appRequestId, String packageName)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="78" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-9" value="TTSRequest getPlayList (int reqId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-9" value="TTSRequest getPlayList (int reqId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="104" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-10" value="TTSRequest getFirstPlayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-10" value="TTSRequest getFirstPlayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="130" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-11" value="TTSRequest getFirstWaitList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-11" value="TTSRequest getFirstWaitList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="156" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-12" value="TTSRequest getCountPlayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-12" value="TTSRequest getCountPlayList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="182" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-13" value="TTSRequest getCountWaitList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-13" value="TTSRequest getCountWaitList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="208" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-14" value="int getPlayingLevel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-14" value="int getPlayingLevel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="234" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-15" value="TTSRequest getReq (AudioTrack at)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-15" value="TTSRequest getReq (AudioTrack at)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="260" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-16" value="TTSRequest remove (int reqId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-16" value="TTSRequest remove (int reqId)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="286" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-17" value="boolean remove (TTSRequest req)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-17" value="boolean remove (TTSRequest req)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="312" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="arErpT5puvNm_ze22JpN-1" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="arErpT5puvNm_ze22JpN-1" value=" " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="338" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-18" value="void removeWaitList (int level, boolean inclusive)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-18" value="void removeWaitList (int level, boolean inclusive)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="364" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-19" value="TTSRequest removeLowestWaitRequest" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-19" value="TTSRequest removeLowestWaitRequest" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="390" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-20" value="boolean existSameRequest (String ttsText, String packageName)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-20" value="boolean existSameRequest (String ttsText, String packageName)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="416" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-21" value="boolean isMCPlaying" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-21" value="boolean isMCPlaying" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="442" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-22" value="String toString" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-4">
+        <mxCell id="3cJQyI4kQeBppujhWccm-22" value="String toString" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-4" vertex="1">
           <mxGeometry y="468" width="360" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-32" value="동작" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="3cJQyI4kQeBppujhWccm-1">
+        <mxCell id="3cJQyI4kQeBppujhWccm-32" value="동작" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="3cJQyI4kQeBppujhWccm-1" vertex="1">
           <mxGeometry x="450" y="166" width="300" height="494" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-33" value="TTSRequest 인스턴스 생성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-33" value="TTSRequest 인스턴스 생성" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-34" value="mWaitList의 req와 level을 비교해, 순서에 맞게 add함" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-34" value="mWaitList의 req와 level을 비교해, 순서에 맞게 add함" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="52" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-35" value="해당 req 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-35" value="해당 req 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="78" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-36" value="mPlayList에서 해당 reqId 갖는 req 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-36" value="mPlayList에서 해당 reqId 갖는 req 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="104" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-37" value="mPlayList의 첫번째 req" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-37" value="mPlayList의 첫번째 req" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="130" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-38" value="mWaitList의 첫번째 req" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-38" value="mWaitList의 첫번째 req" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="156" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-39" value="mPlayList의 사이즈를 가져옴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-39" value="mPlayList의 사이즈를 가져옴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="182" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-40" value="mWaitList의 사이즈를 가져옴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-40" value="mWaitList의 사이즈를 가져옴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="208" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-41" value="mPlayList에서 level이 가장 높은 값을 가져옴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-41" value="mPlayList에서 level이 가장 높은 값을 가져옴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="234" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-42" value="getPlayList와 중복으로 미사용)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-42" value="getPlayList와 중복으로 미사용)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="260" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-43" value="mPlayList에서 해당 reqId의 req 제거" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-43" value="mPlayList에서 해당 reqId의 req 제거" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="286" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-44" value="입력받은 req를 mPlayList에서 삭제하고 없는 경우" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-44" value="입력받은 req를 mPlayList에서 삭제하고 없는 경우" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="312" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3cJQyI4kQeBppujhWccm-45" value="mWaitList에서 삭제, 삭제한 경우 True 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="3cJQyI4kQeBppujhWccm-45" value="mWaitList에서 삭제, 삭제한 경우 True 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="338" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nZsHVpQYHgZFUUUM2cgq-0" value="입력받은 level보다 같거나 작은 req를 삭제" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="nZsHVpQYHgZFUUUM2cgq-0" value="입력받은 level보다 같거나 작은 req를 삭제" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="364" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nZsHVpQYHgZFUUUM2cgq-1" value="가장 낮은 level req 삭제" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="nZsHVpQYHgZFUUUM2cgq-1" value="가장 낮은 level req 삭제" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="390" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nZsHVpQYHgZFUUUM2cgq-2" value="중복 req가 있는 경우 true 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="nZsHVpQYHgZFUUUM2cgq-2" value="중복 req가 있는 경우 true 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="416" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="nZsHVpQYHgZFUUUM2cgq-3" value="mc에서 요청한 req가 있는 경우 true 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="nZsHVpQYHgZFUUUM2cgq-3" value="mc에서 요청한 req가 있는 경우 true 리턴" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="442" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="arErpT5puvNm_ze22JpN-2" value="req, level, packageName, ttsText 출력" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="3cJQyI4kQeBppujhWccm-32">
+        <mxCell id="arErpT5puvNm_ze22JpN-2" value="req, level, packageName, ttsText 출력" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="3cJQyI4kQeBppujhWccm-32" vertex="1">
           <mxGeometry y="468" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="TTS PRIORITY" id="soOvg1gvCvlUotMgcKrM">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="GsLM2Cu3NL8Z-jSko0FP-0" />
         <mxCell id="GsLM2Cu3NL8Z-jSko0FP-1" parent="GsLM2Cu3NL8Z-jSko0FP-0" />
@@ -829,7 +829,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="adjustMasterVolume-2" id="J6LsTfPSnuCsqzh2w6t7">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="qMcFfV7YnO2XI2bRGVSd-0" />
         <mxCell id="qMcFfV7YnO2XI2bRGVSd-1" parent="qMcFfV7YnO2XI2bRGVSd-0" />
@@ -889,6 +889,23 @@
         </mxCell>
         <mxCell id="VKvi6b1xVtAWxVfNoAVr-28" value="setMasterVolume(sMasterVolumeSave)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qMcFfV7YnO2XI2bRGVSd-1" vertex="1">
           <mxGeometry x="533" y="559" width="230" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="speakerId" id="QFAufEYgN0nSVl4SXNL1">
+    <mxGraphModel dx="1202" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="YdZncuNrvwvtn80BITIP-0" />
+        <mxCell id="YdZncuNrvwvtn80BITIP-1" parent="YdZncuNrvwvtn80BITIP-0" />
+        <mxCell id="YdZncuNrvwvtn80BITIP-2" value="&lt;h1&gt;speakerId 변경관련&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YdZncuNrvwvtn80BITIP-1">
+          <mxGeometry x="60" y="30" width="710" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YdZncuNrvwvtn80BITIP-3" value="GG2, GG3 단말 : 최소 7, 최대 23&lt;br&gt;나머지 단말 : 최소 4, 최대 23&lt;br&gt;&lt;br&gt;+ 선재발화시 : 선재발화 볼륨 -&amp;gt; 이후 선재발화 볼륨유지 여부&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YdZncuNrvwvtn80BITIP-1">
+          <mxGeometry x="80" y="80" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YdZncuNrvwvtn80BITIP-21" value="보이스 변경&lt;br&gt;&lt;p style=&quot;margin: 0px ; font-stretch: normal ; font-size: 11px ; line-height: normal ; font-family: &amp;#34;menlo&amp;#34;&quot;&gt;&lt;span&gt;adb shell am broadcast -a kt.action.voice.change -p com.kt.gigagenie.tts -e voicech &quot;3000&quot; --es packageName &quot;com.kt.gigagenie.launcher&quot;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YdZncuNrvwvtn80BITIP-1">
+          <mxGeometry x="70" y="190" width="910" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
