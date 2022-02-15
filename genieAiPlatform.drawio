@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T06:12:07.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" version="16.5.6" etag="l6tCXV5kqYF943erCyOJ" type="github"><diagram id="jTJVUgCcz8Yzjb8gqGI1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-15T06:25:19.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="yLAc--SNQZGYtHCrZgDY" version="16.5.6" type="github">
+  <diagram id="jTJVUgCcz8Yzjb8gqGI1" name="Page-1">
+    <mxGraphModel dx="1298" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0RJkwgeQMzCuXk9Xbwde-2" value="Wake-up &amp;gt; Listen &amp;gt; Think &amp;gt; Speak&lt;br&gt;&lt;br&gt;Keyword Spotting(KWS 음성호출) Hotword Detection - 음성인식을 시작하기위한 신호(특정 음성 패턴)&lt;br&gt;모음의 영향을 많이 받음&lt;br&gt;&lt;br&gt;음성인식 - 사람의 소리를 문자로 변환(받아쓰기) ASR(Automatic Speech Recognition) STT(Speech-to-Text)&lt;br&gt;&lt;br&gt;자연어 처리/이해 - 명령어의 의미를 해석하고 반응&lt;br&gt;NLP(Natural Language Processing) NLU(Understanding) NLI(Inference) NLG(Generation) 대화, DM(Dialog Manager)&lt;br&gt;&lt;br&gt;음성합성 - 답변을 사람이 들을 수 있는 소리로 변환&lt;br&gt;Speech Synthesis, TTS&lt;br&gt;&lt;br&gt;&lt;br&gt;Voice AI를 위해 필요한 HW SW (clients, servers)&lt;br&gt;&lt;br&gt;&lt;br&gt;KWS+STT = 음성인식앱&lt;br&gt;MC&lt;br&gt;TTS앱" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="80" width="1320" height="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
