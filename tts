@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T01:02:08.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="d2Gj0ITxJNgE7hUYtbef" version="16.5.3" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2022-02-16T04:51:07.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="oSdFMyg-l6NJY38Gy7On" version="16.5.3" type="github" pages="12">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -212,13 +212,28 @@
           <mxGeometry x="80" y="90" width="760" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2ly3rtoEUMS6ykF_Lkqw-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;MR15차 개발사항&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;[15.00.00]&lt;/p&gt;&lt;p&gt;시니어모드 설정시 TTS 천천히 재생&lt;/p&gt;&lt;p&gt;ㅇ 요구사항 : 런처 설정에서 천천히속도 미리듣기 및 저장, 대화 채팅모드에서 천천히속도로 말하기시, TTS 80%로 송출됨&lt;/p&gt;&lt;p&gt;ㅇ 개발내역 : 런처 설정 천천히속도 on/off 클릭시 TTS 80% 재생 구현, 설정 저장시 TTS 80%로 속도 설정 구현, 대화채팅 천천히속도 모드시 80% 재생 구현&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;테스트방법&lt;/p&gt;&lt;p&gt;ㅇ 런처설정 -&amp;gt; 음성안내 설정 -&amp;gt; 천천히속도 on / off 선택에 따라 -&amp;gt; TTS 80% 속도로 재생&lt;/p&gt;&lt;p&gt;ㅇ 런처설정 -&amp;gt; 음성안내 설정 -&amp;gt; 천천히속도 on / off 선택 -&amp;gt; 저장 -&amp;gt; 이후 TTS 80% 속도로 재생&lt;br&gt;&lt;/p&gt;&lt;p&gt;ㅇ 순이랑 대화할래 -&amp;gt; 이후 TTS는 80% 속도로 재생&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="js0Tz6AlFfcmG6QQT7Ov-1">
-          <mxGeometry x="70" y="180" width="910" height="340" as="geometry" />
+          <mxGeometry x="60" y="480" width="910" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="3_n97KoVIOH93uZJreSK-0" value="미리 듣기" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="js0Tz6AlFfcmG6QQT7Ov-1">
+          <mxGeometry x="70" y="200" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3_n97KoVIOH93uZJreSK-1" value="설정속도 적용(mc -&amp;gt; TTS)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=16;" vertex="1" parent="js0Tz6AlFfcmG6QQT7Ov-1">
+          <mxGeometry x="70" y="300" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3_n97KoVIOH93uZJreSK-4" value="kt.action.tts.start (isSpeedSlow)" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="js0Tz6AlFfcmG6QQT7Ov-1">
+          <mxGeometry x="230" y="205" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_n97KoVIOH93uZJreSK-5" value="kt.action.tts.speed.change (isSpeed)" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="js0Tz6AlFfcmG6QQT7Ov-1">
+          <mxGeometry x="230" y="330" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3_n97KoVIOH93uZJreSK-6" value="kt.action.tts.start" style="whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="js0Tz6AlFfcmG6QQT7Ov-1">
+          <mxGeometry x="230" y="290" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="TTS 재생 플로우" id="3y2TiCkKI_iPzOihyola">
-    <mxGraphModel dx="1086" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7PKwOTM0BncBq8dpB7SQ-0" />
         <mxCell id="7PKwOTM0BncBq8dpB7SQ-1" parent="7PKwOTM0BncBq8dpB7SQ-0" />
@@ -313,7 +328,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="TTSRequest" id="fAk4_oycmOveGEYbYgOV">
-    <mxGraphModel dx="1298" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Ciq0sC-E2hQf9pbfKQTc-0" />
         <mxCell id="Ciq0sC-E2hQf9pbfKQTc-1" parent="Ciq0sC-E2hQf9pbfKQTc-0" />
