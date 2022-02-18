@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-16T05:23:02.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="sw-W9I-CcW3WcQw5_TdP" version="16.5.3" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2022-02-18T02:28:14.462Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="iS-dD4bs2YNSzDKSpiTw" version="16.5.6" type="github" pages="13">
   <diagram name="기본 정책 및 개요" id="R7d3Q8b_fitzAbDaQ_0s">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1086" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="3eFXW1TL6-u9qBtbck52-0" />
         <mxCell id="3eFXW1TL6-u9qBtbck52-1" parent="3eFXW1TL6-u9qBtbck52-0" />
@@ -208,7 +208,7 @@
         <mxCell id="js0Tz6AlFfcmG6QQT7Ov-2" value="&lt;h1&gt;시니어모드(천천히 재생)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="js0Tz6AlFfcmG6QQT7Ov-1" vertex="1">
           <mxGeometry x="60" y="30" width="710" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="js0Tz6AlFfcmG6QQT7Ov-3" value="TTSApplication&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean isDataSpeedSlow : intent에 데이터 있는지 체크 (TTS 천천히속도 미리듣기 설정값 유무 판단) kt.action.tts.start 파라미터&lt;br&gt;&amp;nbsp;- public boolean isTTSSpeed : MC -&amp;gt; TTS, TTS 속도 조절 kt.action.tts.speed.change 파라미터&lt;br&gt;&lt;br&gt;&lt;br&gt;TTSAsyncTask&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean mSpeedPreListen &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;: TTS속도 80%로 미리듣기&lt;br&gt;&amp;nbsp;- public boolean mSpeedPlay&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;:&amp;nbsp;TTS속도 80% 재생&lt;br&gt;&amp;nbsp;- public static boolean mDataSpeedPre : 천천히속도 미리듣기 설정값 유무(??)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="js0Tz6AlFfcmG6QQT7Ov-1" vertex="1">
+        <mxCell id="js0Tz6AlFfcmG6QQT7Ov-3" value="TTSApplication&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean isDataSpeedSlow : intent에 데이터 있는지 체크 (TTS 천천히속도 미리듣기 설정값 유무 판단) kt.action.tts.start 파라미터&lt;br&gt;&amp;nbsp;- public boolean isTTSSpeed : MC -&amp;gt; TTS, TTS 속도 조절 kt.action.tts.speed.change 파라미터&lt;br&gt;&lt;br&gt;&lt;br&gt;TTSAsyncTask&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean mSpeedPreListen &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;: TTS속도 80%로 미리듣기&lt;br&gt;&amp;nbsp;- public boolean mSpeedPlay&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;:&amp;nbsp;TTS속도 80% 재생&lt;br&gt;&amp;nbsp;- public static boolean mDataSpeedPre : 천천히속도 미리듣기 설정값 유무(??)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="js0Tz6AlFfcmG6QQT7Ov-1" vertex="1">
           <mxGeometry x="80" y="430" width="760" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2ly3rtoEUMS6ykF_Lkqw-0" value="&lt;h1&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;MR15차 개발사항&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;[15.00.00]&lt;/p&gt;&lt;p&gt;시니어모드 설정시 TTS 천천히 재생&lt;/p&gt;&lt;p&gt;ㅇ 요구사항 : 런처 설정에서 천천히속도 미리듣기 및 저장, 대화 채팅모드에서 천천히속도로 말하기시, TTS 80%로 송출됨&lt;/p&gt;&lt;p&gt;ㅇ 개발내역 : 런처 설정 천천히속도 on/off 클릭시 TTS 80% 재생 구현, 설정 저장시 TTS 80%로 속도 설정 구현, 대화채팅 천천히속도 모드시 80% 재생 구현&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;테스트방법&lt;/p&gt;&lt;p&gt;ㅇ 런처설정 -&amp;gt; 음성안내 설정 -&amp;gt; 천천히속도 on / off 선택에 따라 -&amp;gt; TTS 80% 속도로 재생&lt;/p&gt;&lt;p&gt;ㅇ 런처설정 -&amp;gt; 음성안내 설정 -&amp;gt; 천천히속도 on / off 선택 -&amp;gt; 저장 -&amp;gt; 이후 TTS 80% 속도로 재생&lt;br&gt;&lt;/p&gt;&lt;p&gt;ㅇ 순이랑 대화할래 -&amp;gt; 이후 TTS는 80% 속도로 재생&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="js0Tz6AlFfcmG6QQT7Ov-1">
@@ -240,7 +240,7 @@
         <mxCell id="nmGQjPKhe3u5bqDdUP-0-2" value="&lt;h1&gt;시니어모드(천천히 재생)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="nmGQjPKhe3u5bqDdUP-0-1">
           <mxGeometry x="60" y="30" width="710" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="nmGQjPKhe3u5bqDdUP-0-3" value="TTSApplication&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean isDataSpeedSlow : intent에 데이터 있는지 체크 (TTS 천천히속도 미리듣기 설정값 유무 판단) kt.action.tts.start 파라미터&lt;br&gt;&amp;nbsp;- public boolean isTTSSpeed : MC -&amp;gt; TTS, TTS 속도 조절 kt.action.tts.speed.change 파라미터&lt;br&gt;&lt;br&gt;&lt;br&gt;TTSAsyncTask&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean mSpeedPreListen &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;: TTS속도 80%로 미리듣기&lt;br&gt;&amp;nbsp;- public boolean mSpeedPlay&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;:&amp;nbsp;TTS속도 80% 재생&lt;br&gt;&amp;nbsp;- public static boolean mDataSpeedPre : 천천히속도 미리듣기 설정값 유무(??)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="nmGQjPKhe3u5bqDdUP-0-1">
+        <mxCell id="nmGQjPKhe3u5bqDdUP-0-3" value="TTSApplication&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean isDataSpeedSlow : intent에 데이터 있는지 체크 (TTS 천천히속도 미리듣기 설정값 유무 판단) kt.action.tts.start 파라미터&lt;br&gt;&amp;nbsp;- public boolean isTTSSpeed : MC -&amp;gt; TTS, TTS 속도 조절 kt.action.tts.speed.change 파라미터&lt;br&gt;&lt;br&gt;&lt;br&gt;TTSAsyncTask&amp;nbsp;&lt;br&gt;&amp;nbsp;- public boolean mSpeedPreListen &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;: TTS속도 80%로 미리듣기&lt;br&gt;&amp;nbsp;- public boolean mSpeedPlay&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;:&amp;nbsp;TTS속도 80% 재생&lt;br&gt;&amp;nbsp;- public static boolean mDataSpeedPre : 천천히속도 미리듣기 설정값 유무(??)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="nmGQjPKhe3u5bqDdUP-0-1">
           <mxGeometry x="80" y="130" width="760" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nmGQjPKhe3u5bqDdUP-0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="nmGQjPKhe3u5bqDdUP-0-1" source="nmGQjPKhe3u5bqDdUP-0-12" target="nmGQjPKhe3u5bqDdUP-0-15">
@@ -1021,7 +1021,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="speakerId" id="QFAufEYgN0nSVl4SXNL1">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1086" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="YdZncuNrvwvtn80BITIP-0" />
         <mxCell id="YdZncuNrvwvtn80BITIP-1" parent="YdZncuNrvwvtn80BITIP-0" />
@@ -1122,7 +1122,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="speakerId-2" id="JeBkyxPyaypjsr6jWfve">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1086" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="Cs4cTG7TKCTy_GecgNHN-0" />
         <mxCell id="Cs4cTG7TKCTy_GecgNHN-1" parent="Cs4cTG7TKCTy_GecgNHN-0" />
@@ -1161,6 +1161,9 @@
         </mxCell>
         <mxCell id="Cs4cTG7TKCTy_GecgNHN-14" value="(예정인듯) 2700~2799 일본어, 2800~2999 중국어, 2900~2999 영어" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontSize=13;" parent="Cs4cTG7TKCTy_GecgNHN-10" vertex="1">
           <mxGeometry y="150" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MssMiGRnmRmfBgb1wpEE-1" value="현재 TTSService에 SendEmptyMessage로 목소리값 체크하는 코드가 없어서 앱이 재부팅되거나 업그레이드 된 경우 기존 목소리값을 반영하지 못한다(voicech = -1이 되어버림)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Cs4cTG7TKCTy_GecgNHN-1">
+          <mxGeometry x="90" y="414" width="870" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
