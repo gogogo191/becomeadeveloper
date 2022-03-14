@@ -1,3 +1,5 @@
+https://forms.gle/9WE2vBtAwSa2ahCx8
+
 ### 볼륨 타입
 * 기가지니 볼륨 (안드로이드 마스터 볼륨)
 * TV 볼륨
