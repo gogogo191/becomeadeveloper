@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-12T11:37:13.456Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="PgYhHUv4PVbn_Oy1Afpj" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-12T13:38:51.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="YRUyGr36uEag6X2ijXHw" version="20.3.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2489" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -269,7 +269,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="kcj29SDeIe-43jmTk8pl" name="Page-2">
+  <diagram id="kcj29SDeIe-43jmTk8pl" name="요구사항">
     <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -280,11 +280,74 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="7nVeSmpTqBDQ9PWwzHAF" name="페이지-3">
+  <diagram id="7nVeSmpTqBDQ9PWwzHAF" name="유스케이스">
     <mxGraphModel dx="1662" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-2" value="member" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="680" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-4" value="예약" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-5" value="갱신" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-6" value="검색" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-7" value="반납" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-8" value="책 추가" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-9" value="책 삭제" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-10" value="책 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-11" value="대여" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-12" value="책 정보&amp;nbsp;&lt;br&gt;멤버 정보 &lt;br&gt;확인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="240" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-13" value="대여정보&lt;br&gt;확인" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="310" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-14" value="회원 추가" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-15" value="회원 수정" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-16" value="회원 차단" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="350" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-17" value="반납 알림" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-19" value="연체 알림" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="440" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-20" value="예약 취소 알림" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="490" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-21" value="바코드&amp;nbsp;&lt;br&gt;읽음" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="490" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-22" value="system" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GtoBw3KvzbChPyG-kTt5-23" value="librarian" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
