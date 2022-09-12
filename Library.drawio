@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-12T15:44:39.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="ePqHQx8iprMRqbYaZ4us" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-12T15:48:08.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="hKDkwfT9MWkrITX4OCjc" version="20.3.0" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="클래스다이어그램">
     <mxGraphModel dx="2489" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
         <mxCell id="t8BUz2gO8k-E40Qzqa3I-50" value="+getTotalCheckoutBooks():int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="t8BUz2gO8k-E40Qzqa3I-41" vertex="1">
           <mxGeometry y="60" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="RH9qr_HYMCf3S5AQkxp7-9" value="+reserveBook(id,bookItem):void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="t8BUz2gO8k-E40Qzqa3I-41" vertex="1">
+        <mxCell id="RH9qr_HYMCf3S5AQkxp7-9" value="+reserveBook(id,bookItem):bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="t8BUz2gO8k-E40Qzqa3I-41" vertex="1">
           <mxGeometry y="86" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RH9qr_HYMCf3S5AQkxp7-11" value="+renewBook():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="t8BUz2gO8k-E40Qzqa3I-41" vertex="1">
